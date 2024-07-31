@@ -81,7 +81,7 @@ Note: The **"started_at"** and **"ended_at"** columns display the start and end 
 
 # Data Cleaning
 
-Query:
+Query: [Data Cleaning](https://github.com/dalkiranrengin/Rengin_GoogleAnalytics/blob/main/Data%20Cleaning)
 
 1) 300300 rows with missing values were deleted.
 2) "ride_length", "day_of_week" and "month" columns are added to the dataset.
