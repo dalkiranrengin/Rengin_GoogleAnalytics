@@ -1,5 +1,4 @@
 -- Check for missing values in all columns
-
 SELECT COUNT(*) - COUNT(ride_id) ride_id,
  COUNT(*) - COUNT(rideable_type) rideable_type,
  COUNT(*) - COUNT(started_at) started_at,
