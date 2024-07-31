@@ -41,6 +41,7 @@ BigQuery is employed to merge and clean the various datasets into a single datas
 # Data Combining
 
 Query: [Data Combining](https://github.com/dalkiranrengin/Rengin_GoogleAnalytics/blob/main/Data%20Combining) 
+
 5 csv files are uploaded as tables in the dataset 'Google_Case'.
 "combined_data" is created to store 1,122,210 rows.
 
@@ -89,7 +90,7 @@ Query: [Data Cleaning](https://github.com/dalkiranrengin/Rengin_GoogleAnalytics/
 
 # Data Analysis and Visualization
 
-Query: 
+Query: [Data Analysis](https://github.com/dalkiranrengin/Rengin_GoogleAnalytics/blob/main/Data%20Analysis)
 
 ## 1) Distribution of Bike Type Usage Among Annual and Casual Users
 ![image](https://github.com/user-attachments/assets/4974d208-fdc4-4927-a18b-37983117dbfa)
