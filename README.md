@@ -50,7 +50,7 @@ Query: [Data Combining](https://github.com/dalkiranrengin/Rengin_GoogleAnalytics
 
 Query: [Data Exploration](https://github.com/dalkiranrengin/Rengin_GoogleAnalytics/blob/main/Data%20Exploration)
 
- **Explore the dataset**
+## Explore the dataset
 ## 1) Columns and Data Types
 
 ![image](https://github.com/user-attachments/assets/e825dbd8-1eda-453e-9b82-6b5181d20721)
