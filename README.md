@@ -42,3 +42,9 @@ BigQuery is employed to merge and clean the various datasets into a single datas
 Query: 
 5 csv files are uploaded as tables in the dataset 'Google_Case'.
 "combined_data" is created to store 1,122,210 rows.
+
+# Data Exploration
+Query: 
+ **Explore the dataset**
+ 
+
