@@ -42,8 +42,9 @@ BigQuery is employed to merge and clean the various datasets into a single datas
 
 Query: [Data Combining](https://github.com/dalkiranrengin/Rengin_GoogleAnalytics/blob/main/Data%20Combining) 
 
-5 csv files are uploaded as tables in the dataset 'Google_Case'.
-"combined_data" is created to store 1,122,210 rows.
+5 csv files are uploaded as tables in the dataset **'Google_Case'**.
+
+**"combined_data"** is created to store 1,122,210 rows.
 
 # Data Exploration
 
@@ -87,6 +88,7 @@ Query: [Data Cleaning](https://github.com/dalkiranrengin/Rengin_GoogleAnalytics/
 1) 300300 rows with missing values were deleted.
 2) "ride_length", "day_of_week" and "month" columns are added to the dataset.
 3) Trips with duration less than a minute and longer than a day are excluded from the analysis.
+4) Cleaned data is stored in another table **"cleaned_combined_data"**.
 
 # Data Analysis and Visualization
 
