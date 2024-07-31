@@ -3,7 +3,7 @@ Course: [Google Data Analytics Professional Certificate](https://www.coursera.or
 
 In this case study, I will undertake various real-world tasks typical of a junior data analyst at the fictional company Cyclistic. To address the key business questions, I will adhere to the data analysis process, including the steps: Ask, Prepare, Process, Analyze, Share, and Act.
 
-Dataset: [Cyclistic Data](https://divvy-tripdata.s3.amazonaws.com/index.html) (accessed on 28/07/2024)
+Dataset: [Cyclistic Data](https://divvy-tripdata.s3.amazonaws.com/index.html) (accessed on 22/07/2024)
 
 Data Visualizations: Excel
 
