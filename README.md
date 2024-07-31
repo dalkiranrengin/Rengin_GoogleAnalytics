@@ -51,11 +51,13 @@ Query:
  **Explore the dataset**
 ## 1) Columns and Data Types
 
-![<img src="IMG_LINK" width="60" height="60"/>](https://github.com/user-attachments/assets/334c0119-b088-4a0b-9a02-c28bac27047c)
+![image](https://github.com/user-attachments/assets/e825dbd8-1eda-453e-9b82-6b5181d20721)
+
 
 ## 2) Number of Null Values
 
-Following columns have missing values:
+**Following columns have missing values:**
+
 ![<img src="IMG_LINK" width="80" height="80"/>](https://github.com/user-attachments/assets/3c9a2a2b-9cf0-4b9d-877c-72d0d9a96060)
 
 ## 3) Duplicate Rides
