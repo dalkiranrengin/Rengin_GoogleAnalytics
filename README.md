@@ -46,7 +46,7 @@ Query: [Data Combining](https://github.com/dalkiranrengin/Rengin_GoogleAnalytics
 
 # Data Exploration
 
-Query: 
+Query: [Data Exploration](https://github.com/dalkiranrengin/Rengin_GoogleAnalytics/blob/main/Data%20Exploration)
 
  **Explore the dataset**
 ## 1) Columns and Data Types
