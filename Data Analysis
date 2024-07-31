@@ -1,0 +1,43 @@
+-- Data Analysis
+-- Check the distribution of bike types among annual and casual members
+SELECT 
+  COUNT(ride_id) AS ride_id,
+  rideable_type,
+  member_casual
+FROM rengin2.Google_Case.cleaned_combined_data
+GROUP BY
+  rideable_type,
+  member_casual;
+
+-- Explore the no of trips per month
+SELECT month, member_casual, COUNT(ride_id) AS total_trips
+FROM rengin2.Google_Case.cleaned_combined_data
+GROUP BY month, member_casual
+ORDER BY member_casual;
+
+-- Explore the no of trips per day of week
+SELECT day_of_week, member_casual, COUNT(ride_id) AS total_trips
+FROM rengin2.Google_Case.cleaned_combined_data
+GROUP BY day_of_week, member_casual
+ORDER BY member_casual;
+
+-- Explore the no of trips per hour
+SELECT EXTRACT(HOUR FROM started_at) AS hour_of_day, member_casual, COUNT(ride_id) AS total_trips
+FROM rengin2.Google_Case.cleaned_combined_data
+GROUP BY hour_of_day, member_casual
+ORDER BY member_casual;
+
+-- Explore the average ride_length per month
+SELECT month, member_casual, AVG(ride_length) AS avg_ride_duration
+FROM rengin2.Google_Case.cleaned_combined_data
+GROUP BY month, member_casual;
+
+-- Explore the average ride_length per day of week
+SELECT day_of_week, member_casual, AVG(ride_length) AS avg_ride_duration
+FROM rengin2.Google_Case.cleaned_combined_data
+GROUP BY day_of_week, member_casual;
+
+-- Explore the average ride_length per hour
+SELECT EXTRACT(HOUR FROM started_at) AS hour_of_day, member_casual, AVG(ride_length) AS avg_ride_duration
+FROM rengin2.Google_Case.cleaned_combined_data
+GROUP BY hour_of_day, member_casual;
