@@ -93,6 +93,38 @@ Query:
 Among both user types, the classic bike is the most frequently used, followed by the electric bike.
 
 2) Number of Trips by Month, Week, and Hour
+### Number of Trips Per Month
+![image](https://github.com/user-attachments/assets/fbbac672-e64b-4bee-9aa1-f5bf90df8a76)
+
+**Although both user groups exhibit similar trends in bike usage, annual members are three times more likely to use bikes compared to casual members. Additionally, bike usage peaks in April.**
+
+### Number of Trips Per Week
+![image](https://github.com/user-attachments/assets/ef3c3882-386c-403c-ab44-fc98f177ced3)
+
+**Annual members are more likely to use bikes during weekdays, suggesting they rely on them for daily commuting, whereas casual members tend to ride bikes more often on weekends, likely for recreational purposes.**
+
+### Number of Trips Per Hour
+![image](https://github.com/user-attachments/assets/8d161690-1f07-402e-8b0f-807c365c400d)
+
+**Both casual and annual members are more likely to use bikes between 7 AM and 6 PM, with annual members averaging three times more usage during this period. Bike usage peaks for both groups at 5 PM.**
+
+3) Average Ride Lengths by Month, Week, and Hour
+### Average Ride Length by Month
+![image](https://github.com/user-attachments/assets/1813d9d8-0e99-4dcf-89fc-2da2cabb5ea1)
+
+**Despite both groups exhibiting similar patterns in average ride duration from January to May, annual members utilize bikes 2.5 times longer than casual members. Furthermore, while bike usage among casual members peaks in March, annual members experience their peak usage in April.**
+
+### Average Ride Length by Week
+![image](https://github.com/user-attachments/assets/e0a65956-43f2-48dd-988a-6685e53bf6a6)
+
+### Average Ride Length by Hour
+![image](https://github.com/user-attachments/assets/02d8fdc8-ee9c-4a85-84f2-03310af7c058)
+
+
+
+
+
+
 
 
 
