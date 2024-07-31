@@ -73,8 +73,8 @@ Members are either casual or annual users.
 There are 3 bike types in the dataset:
 ![image](https://github.com/user-attachments/assets/f17a5435-2eda-401e-8c3c-c038a6e11e79)
 
-7) The "started_at" and "ended_at" columns display the start and end times of trips in the format YYYY-MM-DD hh:mm
-UTC. A new column, "ride_length", can be created to calculate the total trip duration. There are 898 trips with durations exceeding one day and 20,954 trips with durations of less than one minute or with end times earlier than start times; these should be removed.
+7) The **"started_at"** and **"ended_at"** columns display the start and end times of trips in the format YYYY-MM-DD hh:mm
+UTC. A new column, **"ride_length"**, can be created to calculate the total trip duration. There are 898 trips with durations exceeding one day and 20,954 trips with durations of less than one minute or with end times earlier than start times; these should be removed.
 
 # Data Cleaning
 Query:
@@ -82,6 +82,19 @@ Query:
 1) 300300 rows with missing values were deleted.
 2) "ride_length", "day_of_week" and "month" columns are added to the dataset.
 3) Trips with duration less than a minute and longer than a day are excluded from the analysis.
+
+# Data Analysis and Visualization
+Query: 
+
+1) Distribution of Bike Type Usage Among Annual and Casual Users
+![image](https://github.com/user-attachments/assets/4974d208-fdc4-4927-a18b-37983117dbfa)
+![image](https://github.com/user-attachments/assets/b7a8ff31-a82f-4ade-ad49-c3c1ef5ec2d3)
+
+Among both user types, the classic bike is the most frequently used, followed by the electric bike.
+
+2) Number of Trips by Month, Week, and Hour
+
+
 
 
 
