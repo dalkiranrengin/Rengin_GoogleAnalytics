@@ -39,44 +39,46 @@ The data has been made available by Motivate International Inc. under this [lice
 BigQuery is employed to merge and clean the various datasets into a single dataset. This is necessary because Microsoft Excel, which can only handle up to 1,048,576 rows per worksheet, is inadequate for the Cyclistic dataset's 1,122,210 rows. BigQuery, with its capacity to manage large volumes of data, is essential for this task.
 
 # Data Combining
+
 Query: 
 5 csv files are uploaded as tables in the dataset 'Google_Case'.
 "combined_data" is created to store 1,122,210 rows.
 
 # Data Exploration
+
 Query: 
 
  **Explore the dataset**
-1) Columns and Data Types
+## 1) Columns and Data Types
 
 ![<img src="IMG_LINK" width="60" height="60"/>](https://github.com/user-attachments/assets/334c0119-b088-4a0b-9a02-c28bac27047c)
 
-2) Number of Null Values
+## 2) Number of Null Values
 
 Following columns have missing values:
 ![<img src="IMG_LINK" width="80" height="80"/>](https://github.com/user-attachments/assets/3c9a2a2b-9cf0-4b9d-877c-72d0d9a96060)
 
-3) Duplicate Rides
+## 3) Duplicate Rides
 
 There are no duplicate rides in the dataset.
 
-4) Length of Ride ID's
+## 4) Length of Ride ID's
 
 All ride_id's contain 16 digits.
 
-5) Type of Membership
+## 5) Type of Membership
 
 Members are either casual or annual users.
 
-6) Bike Types
+## 6) Bike Types
 
 There are 3 bike types in the dataset:
 ![image](https://github.com/user-attachments/assets/f17a5435-2eda-401e-8c3c-c038a6e11e79)
 
-7) The **"started_at"** and **"ended_at"** columns display the start and end times of trips in the format YYYY-MM-DD hh:mm
-UTC. A new column, **"ride_length"**, can be created to calculate the total trip duration. There are 898 trips with durations exceeding one day and 20,954 trips with durations of less than one minute or with end times earlier than start times; these should be removed.
+Note: The **"started_at"** and **"ended_at"** columns display the start and end times of trips in the format YYYY-MM-DD hh:mm UTC. A new column, **"ride_length"**, can be created to calculate the total trip duration. There are 898 trips with durations exceeding one day and 20,954 trips with durations of less than one minute or with end times earlier than start times; these should be removed.
 
 # Data Cleaning
+
 Query:
 
 1) 300300 rows with missing values were deleted.
@@ -84,15 +86,17 @@ Query:
 3) Trips with duration less than a minute and longer than a day are excluded from the analysis.
 
 # Data Analysis and Visualization
+
 Query: 
 
-1) Distribution of Bike Type Usage Among Annual and Casual Users
+## 1) Distribution of Bike Type Usage Among Annual and Casual Users
 ![image](https://github.com/user-attachments/assets/4974d208-fdc4-4927-a18b-37983117dbfa)
 ![image](https://github.com/user-attachments/assets/b7a8ff31-a82f-4ade-ad49-c3c1ef5ec2d3)
 
-Among both user types, the classic bike is the most frequently used, followed by the electric bike.
+**Among both user types, the classic bike is the most frequently used, followed by the electric bike.**
 
-2) Number of Trips by Month, Week, and Hour
+## 2) Number of Trips by Month, Week, and Hour
+
 ### Number of Trips Per Month
 ![image](https://github.com/user-attachments/assets/fbbac672-e64b-4bee-9aa1-f5bf90df8a76)
 
@@ -106,19 +110,38 @@ Among both user types, the classic bike is the most frequently used, followed by
 ### Number of Trips Per Hour
 ![image](https://github.com/user-attachments/assets/8d161690-1f07-402e-8b0f-807c365c400d)
 
-**Both casual and annual members are more likely to use bikes between 7 AM and 6 PM, with annual members averaging three times more usage during this period. Bike usage peaks for both groups at 5 PM.**
+**Both casual and annual members are more likely to use bikes between 4 AM and 6 PM, with annual members averaging three times more usage during this period. Bike usage peaks for both groups at 5 PM.**
 
-3) Average Ride Lengths by Month, Week, and Hour
+## 3) Average Ride Lengths by Month, Week, and Hour
+
 ### Average Ride Length by Month
 ![image](https://github.com/user-attachments/assets/1813d9d8-0e99-4dcf-89fc-2da2cabb5ea1)
 
-**Despite both groups exhibiting similar patterns in average ride duration from January to May, annual members utilize bikes 2.5 times longer than casual members. Furthermore, while bike usage among casual members peaks in March, annual members experience their peak usage in April.**
+**Despite both groups exhibiting similar patterns in average ride duration from January to May, casual members utilize bikes 2.5 times longer than annual members, which supports the argument that casual users use bikes more for recreational purposes. Furthermore, while bike usage among casual members peaks in March, annual members experience their peak usage in April.**
 
 ### Average Ride Length by Week
 ![image](https://github.com/user-attachments/assets/e0a65956-43f2-48dd-988a-6685e53bf6a6)
 
+**Consistent with the aforementioned graphs, casual members, on average, use bikes for twice as long as annual users.**
+
 ### Average Ride Length by Hour
 ![image](https://github.com/user-attachments/assets/02d8fdc8-ee9c-4a85-84f2-03310af7c058)
+
+**While casual members exhibit a stable pattern in bike usage throughout the day, annual members show a peak in usage between 3 AM and 7 AM.**
+
+## Conclusion
+
+1) Casual members tend to use bikes throughout the day, with a marked preference for weekends during the summer and spring for recreational purposes. Conversely, annual members predominantly ride bikes on weekdays during peak commute hours (8 AM and 5 PM) in these seasons. 
+
+2) While casual members undertake rides that are twice as long on average, they do so less frequently. Annual members, on the other hand, ride more often but for shorter durations, roughly half the length of the rides taken by casual users.
+
+# Act
+
+Following strategies are recommended to convert casual members into annual members:
+
+1) Casual riders tend to use bikes for longer durations compared to annual members. Introducing discounts for extended ride times could serve as an incentive for casual riders and encourage annual members to extend their ride durations.
+
+2) Casual riders exhibit peak activity on weekends and during the summer and spring, suggesting the potential benefit of offering seasonal or weekend-only memberships tailored to their usage patterns.
 
 
 
