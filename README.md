@@ -45,6 +45,47 @@ Query:
 
 # Data Exploration
 Query: 
+
  **Explore the dataset**
+1) Columns and Data Types
+
+![<img src="IMG_LINK" width="60" height="60"/>](https://github.com/user-attachments/assets/334c0119-b088-4a0b-9a02-c28bac27047c)
+
+2) Number of Null Values
+
+Following columns have missing values:
+![<img src="IMG_LINK" width="80" height="80"/>](https://github.com/user-attachments/assets/3c9a2a2b-9cf0-4b9d-877c-72d0d9a96060)
+
+3) Duplicate Rides
+
+There are no duplicate rides in the dataset.
+
+4) Length of Ride ID's
+
+All ride_id's contain 16 digits.
+
+5) Type of Membership
+
+Members are either casual or annual users.
+
+6) Bike Types
+
+There are 3 bike types in the dataset:
+![image](https://github.com/user-attachments/assets/f17a5435-2eda-401e-8c3c-c038a6e11e79)
+
+7) The "started_at" and "ended_at" columns display the start and end times of trips in the format YYYY-MM-DD hh:mm
+UTC. A new column, "ride_length", can be created to calculate the total trip duration. There are 898 trips with durations exceeding one day and 20,954 trips with durations of less than one minute or with end times earlier than start times; these should be removed.
+
+# Data Cleaning
+Query:
+
+1) 300300 rows with missing values were deleted.
+2) "ride_length", "day_of_week" and "month" columns are added to the dataset.
+3) Trips with duration less than a minute and longer than a day are excluded from the analysis.
+
+
+
+
+
  
 
