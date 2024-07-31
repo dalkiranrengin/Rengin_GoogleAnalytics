@@ -28,7 +28,7 @@ Three questions will guide the future marketing program:
 
 I am assigned to the first question:
 
-**How do annual members and casual riders use Cyclistic bikes differently?** 
+**"How do annual members and casual riders use Cyclistic bikes differently?"** 
 
 # Prepare
 I will use historical [Cyclistic Data](https://divvy-tripdata.s3.amazonaws.com/index.html) to identify trends in the first five months of 2022.
