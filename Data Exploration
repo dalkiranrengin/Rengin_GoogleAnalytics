@@ -39,7 +39,7 @@ SELECT
 started_at, ended_at
 FROM rengin2.Google_Case.combined_data LIMIT 5;
 
--- Explore the bike types in the data set
+-- Explore the bike types in the dataset
 SELECT 
   COUNT(ride_id) AS ride_id,
   rideable_type
