@@ -40,7 +40,7 @@ BigQuery is employed to merge and clean the various datasets into a single datas
 
 # Data Combining
 
-Query: 
+Query: [Data Combining](https://github.com/dalkiranrengin/Rengin_GoogleAnalytics/blob/main/Data%20Combining) 
 5 csv files are uploaded as tables in the dataset 'Google_Case'.
 "combined_data" is created to store 1,122,210 rows.
 
