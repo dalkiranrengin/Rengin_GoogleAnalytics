@@ -1,0 +1,21 @@
+-- Data Combining
+-- Combine Datasets
+CREATE TABLE IF NOT EXISTS rengin2.Google_Case.combined_data AS (
+  SELECT * 
+  FROM rengin2.Google_Case.jan_data
+  UNION ALL 
+  SELECT * 
+  FROM rengin2.Google_Case.feb_data
+  UNION ALL 
+  SELECT * 
+  FROM rengin2.Google_Case.mar_data
+  UNION ALL 
+  SELECT * 
+  FROM rengin2.Google_Case.apr_data
+  UNION ALL 
+  SELECT * 
+  FROM rengin2.Google_Case.may_data
+);
+
+SELECT COUNT(*)
+FROM rengin2.Google_Case.combined_data;
