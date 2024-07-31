@@ -1,4 +1,4 @@
-# Rengin_GoogleAnalytics
+# Rengin_Google_Analytics_Certificate
 Course: [Google Data Analytics Professional Certificate](https://www.coursera.org/learn/google-data-analytics-capstone)
 
 In this case study, I will undertake various real-world tasks typical of a junior data analyst at the fictional company Cyclistic. To address the key business questions, I will adhere to the data analysis process, including the steps: Ask, Prepare, Process, Analyze, Share, and Act.
