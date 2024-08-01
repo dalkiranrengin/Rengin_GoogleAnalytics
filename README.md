@@ -60,7 +60,12 @@ Query: [Data Exploration](https://github.com/dalkiranrengin/Rengin_GoogleAnalyti
 
 **Following columns have missing values:**
 
-![<img src="IMG_LINK" width="80" height="80"/>](https://github.com/user-attachments/assets/3c9a2a2b-9cf0-4b9d-877c-72d0d9a96060)
+start_station_name: 204036
+start_station_id: 204036
+end_station_name: 218225
+end_lat: 890
+end_lng: 890
+end_station_id: 218225
 
 ## 3) Duplicate Rides
 
@@ -136,7 +141,7 @@ Query: [Data Analysis](https://github.com/dalkiranrengin/Rengin_GoogleAnalytics/
 
 ## Conclusion
 
-1) Casual members tend to use bikes throughout the day, with a marked preference for weekends during the summer and spring for recreational purposes. Conversely, annual members predominantly ride bikes on weekdays during peak commute hours (8 AM and 5 PM) in these seasons. 
+1) Casual members tend to use bikes throughout the day, with a marked preference for weekends for recreational purposes. Conversely, annual members predominantly ride bikes on weekdays during peak commute hours (8 AM and 5 PM). 
 
 2) While casual members undertake rides that are twice as long on average, they do so less frequently. Annual members, on the other hand, ride more often but for shorter durations, roughly half the length of the rides taken by casual users.
 
@@ -146,7 +151,7 @@ Following strategies are recommended to convert casual members into annual membe
 
 1) Casual riders tend to use bikes for longer durations compared to annual members. Introducing discounts for extended ride times could serve as an incentive for casual riders and encourage annual members to extend their ride durations.
 
-2) Casual riders exhibit peak activity on weekends and during the summer and spring, suggesting the potential benefit of offering seasonal or weekend-only memberships tailored to their usage patterns.
+2) Casual riders exhibit peak activity on weekend, suggesting the potential benefit of offering weekend-only memberships tailored to their usage patterns.
 
 
 
