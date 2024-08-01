@@ -61,10 +61,15 @@ Query: [Data Exploration](https://github.com/dalkiranrengin/Rengin_GoogleAnalyti
 **Following columns have missing values:**
 
 start_station_name: 204036
+
 start_station_id: 204036
+
 end_station_name: 218225
+
 end_lat: 890
+
 end_lng: 890
+
 end_station_id: 218225
 
 ## 3) Duplicate Rides
