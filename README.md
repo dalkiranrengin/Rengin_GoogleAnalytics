@@ -14,7 +14,7 @@ A bike-share program that features more than 5,800 bicycles and 600 docking stat
 ## Scenario
 I am a junior data analyst working on the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, my team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, my team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve my recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 
-A team of data analysts are responsible for collecting, analyzing, and reporting data that helps guide Cyclistic marketing strategy. I joined this team six months ago and have been busy learning about Cyclistic’s mission and business goals—as well as how you, as a junior data analyst, can help Cyclistic achieve them.
+A team of data analysts are responsible for collecting, analyzing, and reporting data that helps guide Cyclistic marketing strategy. I joined this team six months ago and have been busy learning about Cyclistic’s mission and business goals—as well as how I, as a junior data analyst, can help Cyclistic achieve them.
 
 # Ask
 ## My Task
@@ -95,7 +95,7 @@ Note: The **"started_at"** and **"ended_at"** columns display the start and end 
 
 Query: [Data Cleaning](https://github.com/dalkiranrengin/Rengin_GoogleAnalytics/blob/main/Data%20Cleaning)
 
-1) 300300 rows with missing values were deleted.
+1) 300,300 rows with missing values are deleted.
 2) **"ride_length"**, **"day_of_week"**, and **"month"** columns are added to the dataset.
 3) Trips with duration less than a minute and longer than a day are excluded from the analysis.
 4) Cleaned data is stored in another table **"cleaned_combined_data"**.
